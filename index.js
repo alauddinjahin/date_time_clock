@@ -30,7 +30,7 @@ function formatDate(date) {
         "Friday",
         "Saturday"
     ];
-    
+
     const MONTHS = [
         "January",
         "February",
@@ -46,8 +46,7 @@ function formatDate(date) {
         "December"
     ];
 
-    return `${DAYS[date.getDay()]}, ${MONTHS[date.getMonth()]
-        } ${date.getDate()} ${date.getFullYear()}`;
+    return `${DAYS[date.getDay()]}, ${MONTHS[date.getMonth()]} ${date.getDate()} ${date.getFullYear()}`;
 }
 
 setInterval(() => {
